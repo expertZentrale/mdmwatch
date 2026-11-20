@@ -1,0 +1,15 @@
+[package]
+name = "mdmwatch"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.45"
+eframe = { version = "0.37.0", default-features = false, features = ["default_fonts", "glow"] }
+egui_extras = "0.37"
+libc = "0.2.191"
+plist = "1.10.4"
+png = "0.18.1"
+regex = "1.13.2"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
